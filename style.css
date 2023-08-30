@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#page1{
+    height:100vh;
+    width: 100vw;
+    background-color:red;
+    position: relative;
+}
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+    width: 100vw;
+    /* background-color: yellow; */
+}
+#page1>nav>img{
+    width: 80px;
+    margin: 4%;
+    margin-top:7vw;
+    
+}
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color:#0940E0;   /*remember . means class and # means id */
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: Roboto Medium;
+    font-size: 14px;
+}
+.bottom-page1{
+    height: 50vh;
+    width: 50vw;
+    padding: 0px 15px;
+    position: absolute;
+    bottom: 8%;
+    left: 8%;
+    /* background-color: red; */
+    
+
+}
+.bottom-page1>h1{
+    font-family: Jost;
+    font-size: 6vw;
+    color: #fff;
+    font-weight: 100;
+}
+.bottom-page-inner{
+    position: absolute;
+    height: 25%;
+    width: 97%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom-page-inner>p{
+    color: #fff;
+    font-family: Jost;
+    font-size: 20px;
+}
+.bottom-page-inner>button{
+    padding: 10px 20px;
+    font-family: Jost;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    background-color:#fff;
+    color: #0940E0;
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    position: relative;
+}
